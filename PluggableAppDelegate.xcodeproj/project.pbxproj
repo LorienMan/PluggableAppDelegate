@@ -10,6 +10,7 @@
 		244D55A922CA554E0029843F /* AppServicesManager+UNUserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244D55A822CA554D0029843F /* AppServicesManager+UNUserNotification.swift */; };
 		244D55AA22CA59790029843F /* PluggableAppDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C643400F2110F541004E9383 /* PluggableAppDelegate.framework */; };
 		244D55AB22CA59790029843F /* PluggableAppDelegate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C643400F2110F541004E9383 /* PluggableAppDelegate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C5D0F8BB2416CDA600EE0B98 /* AppServicesManager+SceneLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D0F8BA2416CDA600EE0B98 /* AppServicesManager+SceneLifecycle.swift */; };
 		C64340192110F541004E9383 /* PluggableAppDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C643400F2110F541004E9383 /* PluggableAppDelegate.framework */; };
 		C643401E2110F541004E9383 /* PluggableAppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C643401D2110F541004E9383 /* PluggableAppDelegateTests.swift */; };
 		C64340202110F541004E9383 /* PluggableAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C64340122110F541004E9383 /* PluggableAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		244D55A822CA554D0029843F /* AppServicesManager+UNUserNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+UNUserNotification.swift"; sourceTree = "<group>"; };
+		C5D0F8BA2416CDA600EE0B98 /* AppServicesManager+SceneLifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+SceneLifecycle.swift"; sourceTree = "<group>"; };
 		C643400F2110F541004E9383 /* PluggableAppDelegate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PluggableAppDelegate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64340122110F541004E9383 /* PluggableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluggableAppDelegate.h; sourceTree = "<group>"; };
 		C64340132110F541004E9383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				C64340302110F773004E9383 /* AppServicesManager+URLOpening.swift */,
 				C643402E2110F761004E9383 /* AppServicesManager+WatchKitInteracting.swift */,
 				244D55A822CA554D0029843F /* AppServicesManager+UNUserNotification.swift */,
+				C5D0F8BA2416CDA600EE0B98 /* AppServicesManager+SceneLifecycle.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				C643403B2110F7E4004E9383 /* AppServicesManager+ExtensionTypes.swift in Sources */,
 				C64340312110F773004E9383 /* AppServicesManager+URLOpening.swift in Sources */,
 				C64340452110F855004E9383 /* AppServicesManager+AppStateAndSystemEvents.swift in Sources */,
+				C5D0F8BB2416CDA600EE0B98 /* AppServicesManager+SceneLifecycle.swift in Sources */,
 				C643402D2110F727004E9383 /* AppServicesManager+AppInitializing.swift in Sources */,
 				C64340392110F7D3004E9383 /* AppServicesManager+HandlingActions.swift in Sources */,
 				244D55A922CA554E0029843F /* AppServicesManager+UNUserNotification.swift in Sources */,
